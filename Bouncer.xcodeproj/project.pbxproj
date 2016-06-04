@@ -12,6 +12,7 @@
 		42CA4E2A1D01D9DA00815E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CA4E281D01D9DA00815E7B /* Main.storyboard */; };
 		42CA4E2C1D01D9DA00815E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CA4E2B1D01D9DA00815E7B /* Assets.xcassets */; };
 		42CA4E2F1D01D9DA00815E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CA4E2D1D01D9DA00815E7B /* LaunchScreen.storyboard */; };
+		42CA4E371D01DA3700815E7B /* BouncerBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CA4E361D01DA3700815E7B /* BouncerBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		42CA4E2B1D01D9DA00815E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42CA4E2E1D01D9DA00815E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42CA4E301D01D9DB00815E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CA4E361D01DA3700815E7B /* BouncerBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = BouncerBehavior.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		42CA4E231D01D9DA00815E7B /* Bouncer */ = {
 			isa = PBXGroup;
 			children = (
+				42CA4E361D01DA3700815E7B /* BouncerBehavior.swift */,
 				42CA4E241D01D9DA00815E7B /* AppDelegate.swift */,
 				42CA4E261D01D9DA00815E7B /* ViewController.swift */,
 				42CA4E281D01D9DA00815E7B /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					42CA4E201D01D9DA00815E7B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DJ22U4RTFT;
 					};
 				};
 			};
@@ -137,6 +141,7 @@
 			files = (
 				42CA4E271D01D9DA00815E7B /* ViewController.swift in Sources */,
 				42CA4E251D01D9DA00815E7B /* AppDelegate.swift in Sources */,
+				42CA4E371D01DA3700815E7B /* BouncerBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +256,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Bouncer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.toywar.Bouncer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +270,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Bouncer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.toywar.Bouncer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
