@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42AC62241D12ADBA00B071D7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42AC62231D12ADBA00B071D7 /* Settings.bundle */; };
 		42CA4E251D01D9DA00815E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CA4E241D01D9DA00815E7B /* AppDelegate.swift */; };
 		42CA4E271D01D9DA00815E7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CA4E261D01D9DA00815E7B /* ViewController.swift */; };
 		42CA4E2A1D01D9DA00815E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CA4E281D01D9DA00815E7B /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42AC62231D12ADBA00B071D7 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		42CA4E211D01D9DA00815E7B /* Bouncer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bouncer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CA4E241D01D9DA00815E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42CA4E261D01D9DA00815E7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				42CA4E361D01DA3700815E7B /* BouncerBehavior.swift */,
+				42AC62231D12ADBA00B071D7 /* Settings.bundle */,
 				42CA4E241D01D9DA00815E7B /* AppDelegate.swift */,
 				42CA4E261D01D9DA00815E7B /* ViewController.swift */,
 				42CA4E281D01D9DA00815E7B /* Main.storyboard */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AC62241D12ADBA00B071D7 /* Settings.bundle in Resources */,
 				42CA4E2F1D01D9DA00815E7B /* LaunchScreen.storyboard in Resources */,
 				42CA4E2C1D01D9DA00815E7B /* Assets.xcassets in Resources */,
 				42CA4E2A1D01D9DA00815E7B /* Main.storyboard in Resources */,
@@ -299,6 +303,7 @@
 				42CA4E351D01D9DB00815E7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
